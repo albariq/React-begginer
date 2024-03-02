@@ -22,7 +22,7 @@ const Navigation = ({type}) =>{
                 <p className="text-sm mt-5 text-center">
                      Don't have an account?{""}
                     <Link to="/register" className="font-bold text-blue-600">Register</Link>
-                </p> 
+                </p>
         )
     } else{
         return(
