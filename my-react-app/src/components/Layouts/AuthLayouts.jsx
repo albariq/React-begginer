@@ -20,14 +20,14 @@ const Navigation = ({type}) =>{
     if (type === 'login'){
         return (
                 <p className="text-sm mt-5 text-center">
-                     Don't have an account? 
+                     Don't have an account?{""}
                     <Link to="/register" className="font-bold text-blue-600">Register</Link>
                 </p>
         )
     } else{
         return(
             <p className="text-sm mt-5 text-center">
-                     Already have an acoount?
+                     Already have an acoount?{""}
                     <Link to="/login" className="font-bold text-blue-600">login</Link>
             </p>
         )
