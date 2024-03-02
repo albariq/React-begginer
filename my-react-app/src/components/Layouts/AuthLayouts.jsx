@@ -21,7 +21,7 @@ const Navigation = ({type}) =>{
         return (
                 <p className="text-sm mt-5 text-center">
                      Don't have an account?{""}
-                    <Link to="/register" className="font-bold text-blue-600">Register</Link>
+                    <Link to="/register" className="font-bold text-blue-600">Register</Link> 
                 </p>
         )
     } else{
